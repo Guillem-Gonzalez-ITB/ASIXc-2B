@@ -1,10 +1,10 @@
 <comanda>
     <dades>
-        <número>13</número>
+        <numero>13</numero>
         <data>2011-09-28</data>
         <client>
             <nom>Manuel Rovira</nom>
-            <població>Girona</població>
+            <poblacio>Girona</poblacio>
         </client>
     </dades>
     <articles>
