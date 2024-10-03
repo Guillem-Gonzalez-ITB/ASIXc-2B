@@ -1,0 +1,19 @@
+<clientes>
+    <persona>
+        <nombre>Pere García</nombre>
+    </persona>
+    <perro>
+        <nombre>Rufy</nombre>
+    </perro>
+</clientes>
+
+<!--____________________________________________________________________________________-->
+
+<personas>
+    <persona>
+        <nombre>Pere</nombre>
+        <apellido>Pérez</apellido>
+        <apellido2>García</apellido2>
+        <edad>22</edad>
+    </persona>
+</personas>
