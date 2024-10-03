@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dinero:inversion xmlns:dinero="http://M04_Llenguatge_de_marques/A1/Exercici_10a.xml">
+    <pais nombre="Francia">
+        <capital>
+            Paris
+        </capital>
+        <capital>
+            1200M€
+        </capital>
+    </pais>
+</inversion>

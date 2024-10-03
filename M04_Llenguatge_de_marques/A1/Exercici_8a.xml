@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <nombre>Juan</nombre>
+        <apellido>García</apellido>
+        <fecha_nacimiento>2001-02-23</fecha_nacimiento>
+        <lugar_nacimiento>Barcelona</lugar_nacimiento>
+    </alumno>
+</alumnos>

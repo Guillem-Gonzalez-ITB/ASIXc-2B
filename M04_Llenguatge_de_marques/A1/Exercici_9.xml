@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta tipo="ensalada">
+        <nombre>Ensalada de pasta</nombre>
+        <ingredientes>
+            <ingrediente>
+                <nombre>Pasta</nombre>
+                <cantidad>200g</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Tomate</nombre>
+                <cantidad>1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Atún</nombre>
+                <cantidad>1 lata</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Maíz</nombre>
+                <cantidad>1 lata</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Mayonesa</nombre>
+                <cantidad>al gusto</cantidad>
+            </ingrediente>
+        </ingredientes>
+        <preparacion>
+            <p>Cocer la pasta en agua hirviendo con sal durante 10 minutos.</p>
+            <p>Escurrir la pasta y dejar enfriar.</p>
+            <p>Cortar el tomate en trozos pequeños.</p>
+            <p>Mezclar la pasta con el tomate, el atún y el maíz.</p>
+            <p>Añadir mayonesa al gusto.</p>
+        </preparacion>
+    </receta>
+    <receta tipo="ensalada">
+        <nombre>Ensalada de arroz</nombre>
+        <ingredientes>
+            <ingrediente>
+                <nombre>Arroz</nombre>
+                <cantidad>200g</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Tomate</nombre>
+                <cantidad>1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Atún</nombre>
+                <cantidad>1 lata</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Maíz</nombre>
+                <cantidad>1 lata</cantidad>
+            </ingrediente>
+        </ingredientes>
+        <preparacion>
+            <p>Cocer el arroz en agua hirviendo con sal durante 10 minutos.</p>
+            <p>Escurrir el arroz y dejar enfriar.</p>
+            <p>Cortar el tomate en trozos pequeños.</p>
+            <p>Mezclar el arroz con el tomate, el atún y el maíz.</p>
+            <p>Añadir mayonesa al gusto.</p>
+        </preparacion>
+    </receta>
+</recetas>
