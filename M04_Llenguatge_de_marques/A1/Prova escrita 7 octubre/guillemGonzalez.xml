@@ -1,0 +1,18 @@
+<football_team>
+    <name>Liverpool F.C.</name>
+    <players>
+        <player position="Goalkeeper">
+            <name>Alisson Becker</name>
+            <nationality>Brazilian</nationality>
+        </player>
+        <player position="Forward">
+            <name>Mohamed Salah</name>
+            <number>11</number>
+        </player>
+    </players>
+    <coach>Jürgen Klopp</coach>
+    <city>
+        Liverpool
+        <!--Beautiful City-->
+    </city>
+        
