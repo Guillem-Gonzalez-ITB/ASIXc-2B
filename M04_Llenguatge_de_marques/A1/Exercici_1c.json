@@ -1,0 +1,27 @@
+{
+    "Museo": {
+        "Obra": [
+            {
+                "Titulo": "Azul sobre blanco",
+                "Artista": "Pere Àguila",
+                "Tipo": "Cuadro abstracto",
+                "Fecha": "2014",
+                "Material": "Óleo"
+            },
+            {
+                "Titulo": "Gris oscuro",
+                "Artista": "Pere Àguila",
+                "Tipo": "Cuadro abstracto",
+                "Fecha": "2010",
+                "Material": "Acuarela"
+            },
+            {
+                "Titulo": "Camino largo",
+                "Artista": "Marta Lambert",
+                "Tipo": "Escultura",
+                "Fecha": "1981",
+                "Material": "Mármol"
+            }
+        ]
+    }
+}

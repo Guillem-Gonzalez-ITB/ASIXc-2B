@@ -1,0 +1,10 @@
+{
+    "alumnos": [
+        {
+            "nombre": "Juan",
+            "apellido": "García",
+            "fechaNacimiento": "2001-02-23",
+            "ciudad": "Barcelona"
+        }
+    ]
+}
