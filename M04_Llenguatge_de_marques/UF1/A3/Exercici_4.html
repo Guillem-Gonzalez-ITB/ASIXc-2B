@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercici 4</title>
+        <style>
+            .general-table {
+                border-collapse: collapse;
+                width: fit-content;
+            }
+            table {
+                border-collapse: separate;
+                width: fit-content;
+
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            .checkmarks {
+                font-size: 36px;
+                color: green;
+                border-collapse: separate;
+            }
+            .form-table td {
+                border: none;
+            }
+            .numeros th {
+                width: fit-content;
+
+            }
+        </style>
+    </head>
+    <body>
+
+    <!-- First Table -->
+        <table class="numeros" border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Telephone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bill Gates</td>
+                        <td>
+                            <th>555 77 854</th>
+                            <th>555 77 855</th>
+                        </td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <br/>
+    <!-- Form-like Table -->
+    <table class="numeros" border="2" >
+        <tbody>
+            <tr>
+                <td>First Name:</td>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <td >Telephone:</td>
+                    <td>555 77 854</td>
+                </tr>
+                <tr>
+                    <td>555 77 855</td>
+                </tr>    
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+
+    <!-- Nested Table Example -->
+    <table class="numeros" border="2">
+        <tbody>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>First</td>
+                            <td>Row</td>
+                        </tr>
+                        <tr>
+                            <td>Second</td>
+                            <td>Row</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>First</td>
+                            <td>Row</td>
+                        </tr>
+                        <tr>
+                            <td>Second</td>
+                            <td>Row</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="checkmarks">
+                    &#10004; <!-- Checkmark symbol -->
+                </td>
+                <td class="checkmarks">
+                    &#10004; <!-- Checkmark symbol -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    </body>
+</html>
