@@ -3,22 +3,27 @@
 <ciudades>
     <ciudad>
         <nombre>Madrid</nombre>
+        <provincia>Madrid</provincia>
         <habitantes>3500000</habitantes>
     </ciudad>
     <ciudad>
         <nombre>Malaga</nombre>
+        <provincia>Malaga</provincia>
         <habitantes>800000</habitantes>
     </ciudad>
     <ciudad>
         <nombre>Toledo</nombre>
+        <provincia>Madrid</provincia>
         <habitantes>50000</habitantes>
     </ciudad>
     <ciudad>
         <nombre>Vic</nombre>
+        <provincia>Girona</provincia>
         <habitantes>3</habitantes>
     </ciudad>
     <ciudad>
         <nombre>Barcelona</nombre>
+        <provincia>Barcelona</provincia>
         <habitantes>2500000</habitantes>
     </ciudad>
 </ciudades>
