@@ -1,0 +1,25 @@
+professorat {
+    padding: 30px;
+    border: 4px solid black;
+    width: 40%;
+    margin: 30px;
+}
+
+nom, cognom {
+    font-size: 30px;
+}
+
+departament {
+    padding-top: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+carrec {
+    font-style: italic;
+    padding-left: 10px;
+}
+
+carrec::after {
+    content: ", ";
+}
