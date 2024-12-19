@@ -14,6 +14,7 @@ loadNamesBtn.addEventListener("click", async () => {
     const text = await response.text();
     names = text.split("\n").map(name => name.trim()).filter(name => name);
     drawWheel();
+    drawArrow();
     alert("Noms carregats!");
   } catch (error) {
     alert("Error carregant els noms.");
@@ -49,19 +50,22 @@ function drawWheel() {
     ctx.fillText(name, -ctx.measureText(name).width / 2, 0);
     ctx.restore();
   });
-  drawArrow();
+
 }
 
-OJOOOO
+//OJOOOO
 function drawArrow() {
-    ctx.beginPath();
-    ctx.moveTo(250, 20); // Punt de la fletxa
-    ctx.lineTo(240, 60); // Lateral esquerre
-    ctx.lineTo(260, 60); // Lateral dret
-    ctx.closePath();
-    ctx.fillStyle = "black";
-    ctx.fill();
-  }
+  const arrowX = 450; // Coordenada X fixa de la punta de la fletxa
+  const arrowY = 250; // Coordenada Y fixa al centre vertical
+
+  ctx.beginPath();
+  ctx.moveTo(arrowX, arrowY); // Punta de la fletxa
+  ctx.lineTo(arrowX + 50, arrowY - 20); // Vora superior
+  ctx.lineTo(arrowX + 50, arrowY + 20); // Vora inferior
+  ctx.closePath();
+  ctx.fillStyle = "black";
+  ctx.fill();
+}
 
 // Funció per fer girar la ruleta
 spinBtn.addEventListener("click", () => {
@@ -83,6 +87,7 @@ spinBtn.addEventListener("click", () => {
     ctx.translate(-250, -250);
     drawWheel();
     ctx.restore();
+    drawArrow();
   }, 20);
 
   setTimeout(() => {
