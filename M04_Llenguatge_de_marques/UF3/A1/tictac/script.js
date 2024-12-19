@@ -5,6 +5,7 @@ const endTimeInput = document.getElementById("end-time");
 const countdownInput = document.getElementById("countdown");
 const startButton = document.getElementById("start-timer");
 const alarmSound = document.getElementById("alarm-sound");
+const alarmSelect = document.getElementById("alarm-sound-select");
 const themeToggleButton = document.getElementById("theme-toggle");
 const body = document.body;
 const timer = document.querySelectorAll(".timer");
@@ -37,7 +38,10 @@ function toggleTimer() {
   }
 }
 
-// Funció per iniciar el temporitzador
+alarmSelect.addEventListener("change", () => {
+  alarmSound.src = alarmSelect.value;
+});
+
 // Funció per iniciar el temporitzador
 function startTimer() {
   clearInterval(timerInterval);

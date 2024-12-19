@@ -28,23 +28,20 @@
 
       <label for="alarm-sound-select">Selecciona el so de l'alarma:</label>
       <select id="alarm-sound-select">
-        <option value="sound1.mp3">So 1</option>
-        <option value="sound2.mp3">So 2</option>
-        <option value="sound3.mp3">So 3</option>
-        <option value="sound4.mp3">So 4</option>
-        <option value="sound5.mp3">So 5</option>
+        <option value="../sounds/alarmaDigital.mp3">Alarma digital</option>
+        <option value="../sounds/alerta.mp3">Alerta</option>
+        <option value="../sounds/despertadorClassic.mp3">Despertador Clàssic</option>
+        <option value="../sounds/radar.mp3">Radar</option>
+        <option value="../sounds/bomba.mp3">Bomba</option>
       </select>
-      <audio id="alarm-sound" src="sound1.mp3"></audio>
-    </br>
+      <audio id="alarm-sound" src="../sounds/alarmaDigital.mp3"></audio>
+      </br>
       <button id="start-timer">Iniciar Temporitzador</button>
       <h2>Temps restant: </h2>
       <div id="time-left">--:--:--</div>
     </div>
   </div>
 
-  <!-- Afegir l'àudio per l'alarma -->
-  <audio id="alarm-sound" src="https://www.soundjay.com/button/beep-07.wav"></audio>
-  
   <script src="script.js"></script>
 </body>
 </html>
