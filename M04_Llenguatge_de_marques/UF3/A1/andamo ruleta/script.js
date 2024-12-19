@@ -53,7 +53,6 @@ function drawWheel() {
 
 }
 
-//OJOOOO
 function drawArrow() {
   const arrowX = 450; // Coordenada X fixa de la punta de la fletxa
   const arrowY = 250; // Coordenada Y fixa al centre vertical
